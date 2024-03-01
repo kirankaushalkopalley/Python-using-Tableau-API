@@ -44,7 +44,7 @@ Here are some examples of what you can achieve with Dashboard Extensions:
 * __Interactive elements:__ Create custom buttons, menus, or other interactive elements to enhance user interaction with the data.
 For further information and getting started with Tableau's APIs, you can refer to the official documentation:
 
-REST API: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
-Dashboard Extensions API: https://www.tableau.com/developer/tools
+* REST API: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
+* Dashboard Extensions API: https://www.tableau.com/developer/tools
 
 Feel free to explore and utilize these notebooks based on your Tableau integration needs. Happy coding!
