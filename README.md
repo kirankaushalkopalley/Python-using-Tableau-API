@@ -22,4 +22,29 @@ In this notebook, `Read PII Fields in All Datasources Published in Tableau Onlin
 
 The notebook `Workbook Permissions.ipynb` demonstrates Python code for managing workbook permissions in Tableau. It provides a practical guide for handling permissions efficiently using the Tableau API.
 
+## General information about Tableau API.
+
+Tableau actually offers two main APIs for developers to interact with its platform:
+
+### Tableau Server REST API: 
+This API allows you to programmatically manage and interact with resources on Tableau Server, Tableau Cloud sites, and Prep Conductor. It utilizes HTTP requests and responses, making it familiar for developers with web development experience.
+Here are some key functionalities of the REST API:
+__Manage Tableau resources:__ Create, update, and delete workbooks, data sources, users, groups, and more.
+__Automate tasks:__ Schedule data refreshes, manage permissions, and execute other administrative tasks programmatically.
+__Integrate with other applications:__ Embed Tableau visualizations within your own custom applications or leverage Tableau data within your workflows.
+
+
+### Dashboard Extensions API: 
+This API empowers developers to create custom extensions that integrate directly into Tableau dashboards. These extensions can provide additional functionality or data not natively available within Tableau, enhancing user experience and data exploration capabilities.
+
+
+Here are some examples of what you can achieve with Dashboard Extensions:
+__Display real-time data:__ Integrate live data feeds from external sources alongside your visualizations.
+__Perform custom calculations:__ Add new calculations or transformations not supported by Tableau directly within the dashboard.
+__Interactive elements:__ Create custom buttons, menus, or other interactive elements to enhance user interaction with the data.
+For further information and getting started with Tableau's APIs, you can refer to the official documentation:
+
+REST API: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
+Dashboard Extensions API: https://www.tableau.com/developer/tools
+
 Feel free to explore and utilize these notebooks based on your Tableau integration needs. Happy coding!
