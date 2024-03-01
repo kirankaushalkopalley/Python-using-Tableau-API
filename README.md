@@ -29,9 +29,9 @@ Tableau actually offers two main APIs for developers to interact with its platfo
 ### Tableau Server REST API: 
 This API allows you to programmatically manage and interact with resources on Tableau Server, Tableau Cloud sites, and Prep Conductor. It utilizes HTTP requests and responses, making it familiar for developers with web development experience.
 Here are some key functionalities of the REST API:
-__Manage Tableau resources:__ Create, update, and delete workbooks, data sources, users, groups, and more.
-__Automate tasks:__ Schedule data refreshes, manage permissions, and execute other administrative tasks programmatically.
-__Integrate with other applications:__ Embed Tableau visualizations within your own custom applications or leverage Tableau data within your workflows.
+* __Manage Tableau resources:__ Create, update, and delete workbooks, data sources, users, groups, and more.
+* __Automate tasks:__ Schedule data refreshes, manage permissions, and execute other administrative tasks programmatically.
+* __Integrate with other applications:__ Embed Tableau visualizations within your own custom applications or leverage Tableau data within your workflows.
 
 
 ### Dashboard Extensions API: 
@@ -39,9 +39,9 @@ This API empowers developers to create custom extensions that integrate directly
 
 
 Here are some examples of what you can achieve with Dashboard Extensions:
-__Display real-time data:__ Integrate live data feeds from external sources alongside your visualizations.
-__Perform custom calculations:__ Add new calculations or transformations not supported by Tableau directly within the dashboard.
-__Interactive elements:__ Create custom buttons, menus, or other interactive elements to enhance user interaction with the data.
+* __Display real-time data:__ Integrate live data feeds from external sources alongside your visualizations.
+* __Perform custom calculations:__ Add new calculations or transformations not supported by Tableau directly within the dashboard.
+* __Interactive elements:__ Create custom buttons, menus, or other interactive elements to enhance user interaction with the data.
 For further information and getting started with Tableau's APIs, you can refer to the official documentation:
 
 REST API: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm
